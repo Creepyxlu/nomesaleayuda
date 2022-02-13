@@ -1,0 +1,47 @@
+*{
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    box-sizing:  border-box;
+    margin: 1;
+
+}
+
+body{
+    background-color: wheat;
+}
+
+
+h1{
+    color: darkslategray;
+}
+
+
+/*aca probe poner un atributo inventado*/
+
+[rancio="sii"] {
+    color: darkviolet;
+}
+
+h2 p{
+    color: deeppink;
+}
+
+.contact-form__input:first-child{
+    background-color: coral;
+}
+.contact-form__input--active{
+    color: green;
+}
+
+.contact-form__h2{
+    font-size: 3em;
+    background-color: crimson;
+    width: 30vw; 
+    font-family: 'Dongle', sans-serif;
+    line-height: 1.5; /*ocupa el doble de "margin" por asi decirlo*/
+    font-weight: 1000; /*se pone toa gruesa :3*/
+    display: inline-block;
+}
+
+
